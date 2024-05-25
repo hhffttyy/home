@@ -1,0 +1,249 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	background-color: rgb(0,1,71);
+}
+
+.a1 {
+	background: radial-gradient(rgb(252,230,27),rgb(251,118,23),rgb(252,22,22));
+	width: 250px;
+	height: 250px;
+	font-size: 0px;
+}
+
+.a1:hover {
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	font-size: 0px;
+}
+
+.a2 {
+	background: deepskyblue;
+	width: 250px;
+	height: 250px;
+	font-size: 0px;
+}
+
+.a2:hover {
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	font-size: 0px;
+}
+
+.a3 {
+	background: radial-gradient(rgb(228,188,112), rgb(134,91,49));
+	width: 250px;
+	height: 250px;
+	font-size: 0px;
+}
+
+.a3:hover {
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	font-size: 0px;
+}
+
+.a4 {
+	background: rgb(87,237,254);
+	width: 250px;
+	height: 250px;
+	font-size: 0px;
+}
+
+.a4:hover {
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	font-size: 0px;
+}
+
+.e1 {
+	position: absolute;
+	background-color: lime;
+	width: 100px;
+	height: 40px;
+	font-size: 0px;
+	top: 350px;
+	left: 570px;
+}
+
+.e2 {
+	position: absolute;
+	background-color: lime;
+	width: 40px;
+	height: 60px;
+	font-size: 0px;
+	top: 370px;
+	left: 580px;
+}
+
+.e3 {
+	position: absolute;
+	background-color: lime;
+	width: 20px;
+	height: 35px;
+	font-size: 0px;
+	top: 460px;
+	left: 640px;
+}
+
+.e4 {
+	position: absolute;
+	background-color: lime;
+	width: 60px;
+	height: 45px;
+	font-size: 0px;
+	top: 360px;
+	left: 710px;
+}
+
+.e5 {
+	position: absolute;
+	background-color: lime;
+	width: 30px;
+	height: 70px;
+	font-size: 0px;
+	top: 360px;
+	left: 730px;
+}
+
+.e6 {
+	position: absolute;
+	background-color: lime;
+	width: 25px;
+	height: 10px;
+	font-size: 0px;
+	top: 350px;
+	left: 740px;
+}
+
+.e7 {
+	position: absolute;
+	background-color: lime;
+	width: 20px;
+	height: 20px;
+	font-size: 0px;
+	top: 435px;
+	left: 585px;
+}
+
+.e8 {
+	position: absolute;
+	background-color: lime;
+	width: 10px;
+	height: 15px;
+	font-size: 0px;
+	top: 400px;
+	left: 640px;
+}
+
+.e9 {
+	position: absolute;
+	background-color: lime;
+	width: 30px;
+	height: 15px;
+	font-size: 0px;
+	top: 440px;
+	left: 740px;
+}
+
+.e10 {
+	position: absolute;
+	background-color: lime;
+	width: 20px;
+	height: 15px;
+	font-size: 0px;
+	top: 460px;
+	left: 630px;
+}
+
+h1 {
+	padding: 150px;
+	font-size: 0px;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.s1 {
+	position: absolute;
+	background-color: white;
+	font-size: 0px;
+	width: 30px;
+	height: 10px;
+	top: 100px;
+	left: 200px;
+}
+
+.s2 {
+	position: absolute;
+	background-color: white;
+	font-size: 0px;
+	width: 30px;
+	height: 10px;
+	top: 100px;
+	left: 160px;
+}
+
+.s3 {
+	position: absolute;
+	background-color: white;
+	font-size: 0px;
+	width: 10px;
+	height: 30px;
+	top: 110px;
+	left: 190px;
+}
+
+.s4 {
+	position: absolute;
+	background-color: white;
+	font-size: 0px;
+	width: 10px;
+	height: 30px;
+	top: 70px;
+	left: 190px;
+}
+
+.s5 {
+	position: absolute;
+	background-color: white;
+	font-size: 0px;
+	width: 10px;
+	height: 10px;
+	top: 70px;
+	left: 420px;
+}
+
+.s6 {
+	position: absolute;
+	background-color: white;
+	font-size: 0px;
+	width: 20px;
+	height: 20px;
+	top: 700px;
+	left: 220px;
+}
+
+@media screen and (max-width:900px) {
+	article {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.a1,
+	.a2,
+	.a3,
+	.a4,
+	.a5 {
+		margin: 20px;
+	}
+}
