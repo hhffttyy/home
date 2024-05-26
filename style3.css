@@ -163,12 +163,86 @@ img {
   display: flex;
   justify-content: center;
   text-align: center;
+  font-family: Arial, sans-serif;
   align-items: center;
 }
 
 .l2:hover {
   border-radius: 50px;
   background-color: red;
+}
+
+.l3 {
+  font-size: 20px;
+  position: fixed;
+  background-color: black;
+  color: white;
+  top: 200px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  border-radius: 40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.l3:hover {
+  border-radius: 0px;
+  background-color: red;
+}
+
+.l4 {
+  font-size: 20px;
+  position: fixed;
+  background-color: black;
+  color: white;
+  top: 320px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  border-radius: 40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.l4:hover {
+  border-radius: 0px;
+  background-color: red;
+}
+
+.l5 {
+  font-size: 20px;
+  position: fixed;
+  background-color: black;
+  color: white;
+  top: 440px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  border-radius: 40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.l5:hover {
+  border-radius: 0px;
+  background-color: red;
+}
+@media screen and (max-width:1200px) {
+  .l1 {
+    left: 570px;
+    width: 20px;
+    height: 430px;
+  }
 }
 
 @media screen and (max-width:900px) {
@@ -197,7 +271,7 @@ img {
   }
 
   .m1 {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 
   nav {
@@ -313,10 +387,10 @@ img {
     background-color: black;
     position: absolute;
     font-size: 0px;
-    width: 10px;
+    width: 18px;
     height: 630px;
     top: 530px;
-    left: 350px;
+    left: 420px;
   }
 
   .l2 {
@@ -363,5 +437,22 @@ img {
   .j10 {
     width: 100px;
     height: 200px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .l1 {
+    width: 15px;
+    height: 800px;
+    left: 430px;
+  }
+  }
+}
+
+@media screen and (max-width:700px) {
+  .l1 {
+    width: 15px;
+    height: 800px;
+  }
   }
 }
