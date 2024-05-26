@@ -1,0 +1,367 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: Arial, sans-serif;
+  word-break: keep-all;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 200px;
+  letter-spacing: 30px;
+  margin-left: 1150px;
+  margin-top: 80px;
+}
+
+.z1 {
+  color: gray;
+  margin-left: 950px;
+}
+
+.m1 {
+  margin-bottom: 200px;
+}
+
+nav {
+  margin-top: 100px;
+  width: 45%;
+  height: 400%;
+  float: left;
+}
+
+.q1 {
+  text-align: right;
+}
+
+.q2 {
+  text-align: right;
+}
+
+article {
+  width: 45%;
+  float: right;
+}
+
+.w1 {
+  text-align: left;
+}
+
+.w2 {
+  margin-top: 600px;
+}
+
+.w3 {
+  text-align: left;
+}
+
+.w4 {
+  text-align: left;
+}
+
+.w5 {
+  text-align: left;
+}
+
+.w6 {
+  text-align: left;
+}
+
+.s1 {
+  margin-top: 4200px;
+  float: left;
+}
+
+.s2 {
+  text-align: right;
+}
+
+.s3 {
+  text-align: right;
+}
+
+.s4 {
+  text-align: right;
+}
+
+.s5 {
+  text-align: right;
+}
+
+.s6 {
+  text-align: right;
+}
+
+.s7 {
+  text-align: right;
+}
+
+.t1 {
+  margin-top: 1800px;
+}
+
+.t2,
+.t3,
+.t4,
+.t5 {
+  text-align: left;
+}
+
+section {
+  text-align: center;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+  line-height: 1.6;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+img {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.l1 {
+  background-color: black;
+  position: absolute;
+  font-size: 0px;
+  width: 20px;
+  height: 370px;
+  top: 530px;
+  left: 830px;
+}
+
+.l2 {
+  font-size: 30px;
+  position: fixed;
+  background-color: black;
+  color: white;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.l2:hover {
+  border-radius: 50px;
+  background-color: red;
+}
+
+@media screen and (max-width:900px) {
+  h1,
+  h2,
+  h3,
+  p {
+    font-family: Arial, sans-serif;
+    word-break: keep-all;
+  }
+
+  header {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 200px;
+    letter-spacing: 20px;
+    margin-left: 300px;
+    margin-top: 80px;
+  }
+
+  .z1 {
+    color: gray;
+    margin-left: 500px;
+  }
+
+  .m1 {
+    margin-bottom: 200px;
+  }
+
+  nav {
+    margin-top: 100px;
+    width: 45%;
+    height: 400%;
+    float: left;
+  }
+
+  .q1 {
+    text-align: right;
+  }
+
+  .q2 {
+    text-align: right;
+  }
+
+  article {
+    width: 45%;
+    float: right;
+  }
+
+  .w1 {
+    text-align: left;
+  }
+
+  .w2 {
+    margin-top: 800px;
+  }
+
+  .w3 {
+    text-align: left;
+  }
+
+  .w4 {
+    text-align: left;
+  }
+
+  .w5 {
+    text-align: left;
+  }
+
+  .w6 {
+    text-align: left;
+  }
+
+  .s1 {
+    margin-top: 6100px;
+    float: left;
+  }
+
+  .s2 {
+    text-align: right;
+  }
+
+  .s3 {
+    text-align: right;
+  }
+
+  .s4 {
+    text-align: right;
+  }
+
+  .s5 {
+    text-align: right;
+  }
+
+  .s6 {
+    text-align: right;
+  }
+
+  .s7 {
+    text-align: right;
+  }
+
+  .t1 {
+    margin-top: 2600px;
+  }
+
+  .t2,
+  .t3,
+  .t4,
+  .t5 {
+    text-align: left;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 80px;
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+
+  img {
+    display: inline-block;
+    margin-top: 50px;
+  }
+
+  .l1 {
+    background-color: black;
+    position: absolute;
+    font-size: 0px;
+    width: 10px;
+    height: 630px;
+    top: 530px;
+    left: 350px;
+  }
+
+  .l2 {
+    font-size: 30px;
+    position: fixed;
+    background-color: black;
+    color: white;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .l2:hover {
+    border-radius: 50px;
+    background-color: red;
+  }
+
+  .j1,
+  .j2,
+  .j3,
+  .j6,
+  .j7,
+  .j8,
+  .j9 {
+    width: 200px;
+    height: 100px;
+  }
+
+  .j4 {
+    width: 200px;
+    height: 150px;
+  }
+
+  .j5 {
+    width: 200px;
+    height: 180px;
+  }
+
+  .j10 {
+    width: 100px;
+    height: 200px;
+  }
+}

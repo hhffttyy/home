@@ -16,14 +16,19 @@ h1 {
 	background: radial-gradient(rgb(252,230,27),rgb(251,118,23),rgb(252,22,22));
 	width: 250px;
 	height: 250px;
-	font-size: 0px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	font-family: Arial, sans-serif;
 }
 
 .a1:hover {
 	width: 250px;
 	height: 250px;
 	border-radius: 125px;
-	font-size: 0px;
 }
 
 .a2 {
@@ -294,8 +299,14 @@ h1 {
 		background: radial-gradient(rgb(252,230,27),rgb(251,118,23),rgb(252,22,22));
 		width: 250px;
 		height: 250px;
-		font-size: 0px;
-	}
+		font-size: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: black;
+		font-family: Arial, sans-serif;
+		}
 
 	.a2 {
 		position: absolute;
@@ -333,8 +344,8 @@ h1 {
 		width: 100px;
 		height: 40px;
 		font-size: 0px;
-		top: 350px;
-		left: 570px;
+		top: 750px;
+		left: 310px;
 		}
 
 	.e2 {
@@ -343,8 +354,8 @@ h1 {
 		width: 40px;
 		height: 60px;
 		font-size: 0px;
-		top: 370px;
-		left: 580px;
+		top: 770px;
+		left: 320px;
 		}
 
 	.e3 {
@@ -353,8 +364,8 @@ h1 {
 		width: 20px;
 		height: 35px;
 		font-size: 0px;
-		top: 460px;
-		left: 640px;
+		top: 860px;
+		left: 380px;
 		}
 
 	.e4 {
@@ -363,8 +374,8 @@ h1 {
 		width: 60px;
 		height: 45px;
 		font-size: 0px;
-		top: 360px;
-		left: 710px;
+		top: 760px;
+		left: 450px;
 		}
 
 	.e5 {
@@ -373,8 +384,8 @@ h1 {
 		width: 30px;
 		height: 70px;
 		font-size: 0px;
-		top: 360px;
-		left: 730px;
+		top: 760px;
+		left: 470px;
 		}
 
 	.e6 {
@@ -383,8 +394,8 @@ h1 {
 		width: 25px;
 		height: 10px;
 		font-size: 0px;
-		top: 350px;
-		left: 740px;
+		top: 750px;
+		left: 480px;
 		}
 
 	.e7 {
@@ -393,8 +404,8 @@ h1 {
 		width: 20px;
 		height: 20px;
 		font-size: 0px;
-		top: 435px;
-		left: 585px;
+		top: 835px;
+		left: 325px;
 		}
 
 	.e8 {
@@ -403,8 +414,8 @@ h1 {
 		width: 10px;
 		height: 15px;
 		font-size: 0px;
-		top: 400px;
-		left: 640px;
+		top: 800px;
+		left: 380px;
 		}
 
 	.e9 {
@@ -413,8 +424,8 @@ h1 {
 		width: 30px;
 		height: 15px;
 		font-size: 0px;
-		top: 440px;
-		left: 740px;
+		top: 840px;
+		left: 480px;
 		}
 
 	.e10 {
@@ -423,8 +434,8 @@ h1 {
 		width: 20px;
 		height: 15px;
 		font-size: 0px;
-		top: 460px;
-		left: 630px;
+		top: 860px;
+		left: 370px;
 		}
 
 	.s1 {
