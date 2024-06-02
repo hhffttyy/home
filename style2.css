@@ -38,7 +38,13 @@ h1 {
 	background: deepskyblue;
 	width: 250px;
 	height: 250px;
-	font-size: 0px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	font-family: Arial, sans-serif;
 }
 
 .a2:hover {
@@ -46,6 +52,13 @@ h1 {
 	height: 250px;
 	border-radius: 125px;
 	font-size: 0px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	font-family: Arial, sans-serif;
 }
 
 .a3 {
@@ -95,11 +108,11 @@ h1 {
 .e2 {
 	position: absolute;
 	background-color: lime;
-	width: 40px;
+	width: 25px;
 	height: 60px;
 	font-size: 0px;
 	top: 370px;
-	left: 580px;
+	left: 575px;
 }
 
 .e3 {
@@ -155,7 +168,7 @@ h1 {
 .e8 {
 	position: absolute;
 	background-color: lime;
-	width: 10px;
+	width: 5px;
 	height: 15px;
 	font-size: 0px;
 	top: 400px;
@@ -315,8 +328,14 @@ h1 {
 		background: deepskyblue;
 		width: 250px;
 		height: 250px;
-		font-size: 0px;
-	}
+		font-size: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: black;
+		font-family: Arial, sans-serif;
+	    }
 
 	.a3 {
 		position: absolute;
