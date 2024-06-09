@@ -1,0 +1,131 @@
+body {
+  background-image: url(back/se.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 65vw auto;
+}
+
+.a1 {
+  position: absolute;
+  top: 270px;
+  left: 660px;
+}
+
+.a2 {
+  position: absolute;
+  top: 270px;
+  left: 810px;
+}
+
+.a3 {
+  position: absolute;
+  top: 270px;
+  left: 960px;
+}
+
+.a4 {
+  position: absolute;
+  top: 540px;
+  left: 680px;
+}
+
+.a5 {
+  position: absolute;
+  top: 400px;
+  left: 720px;
+}
+
+.a6 {
+  position: absolute;
+  top: 400px;
+  left: 910px;
+}
+
+.a7 {
+  position: absolute;
+  top: 540px;
+  left: 810px;
+}
+
+.a8 {
+  position: absolute;
+  top: 540px;
+  left: 940px;
+}
+
+.a9 {
+  position: absolute;
+  top: 650px;
+  left: 900px;
+}
+
+.a10 {
+  position: absolute;
+  top: 650px;
+  left: 650px;
+}
+
+.a11 {
+  position: absolute;
+  top: 150px;
+  left: 800px;
+}
+
+.t1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  background-color: black;
+  width: 450px;
+  height: 200px;
+  top: 100px;
+  left: 20px;
+  border: lightgreen 10px solid;
+}
+
+.t1:hover {
+  background-color: green;
+}
+
+.t2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  background-color: black;
+  width: 450px;
+  height: 200px;
+  top: 500px;
+  left: 20px;
+  border: lightpink 10px solid;
+}
+
+.t2:hover {
+  background-color: red;
+}
+
+.t3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  writing-mode: vertical-rl;
+  position: absolute;
+  background-color: black;
+  width: 200px;
+  height: 800px;
+  top: 100px;
+  left: 1350px;
+  border: lightblue 10px solid;
+}
+
+.t3:hover {
+  background-color: blue;
+}
