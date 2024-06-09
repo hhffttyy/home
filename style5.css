@@ -1,0 +1,17 @@
+body {
+	background-image: url(back/ref.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100vw auto;
+}
+
+.a1 {
+	background-image: url(back/r22.png);
+	background-repeat: no-repeat;
+	position: absolute;	
+	top: 320px;
+	left: 900px;
+	width: 500px;
+	height: 500px;
+}
