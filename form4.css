@@ -68,7 +68,7 @@ h2 {
 }
 
 p {
-  margin: 20px;
+  margin: 10px;
   line-height: 1.4;
 }
 
@@ -121,17 +121,17 @@ a {
   font-size: 0;
   width: 0px;
   height: 0px;
-  border-bottom: calc( 50px * 1.732 ) solid #666666;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+  border-bottom: calc( 30px * 1.732 ) solid #666666;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   p {
@@ -140,8 +140,21 @@ a {
 
   .g1 {
   background: gray;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
+  }
+
+  .m1,
+  .m2,
+  .m3,
+  .m4,
+  .m5,
+  .f1,
+  .f2,
+  .f3,
+  .f4,
+  .f5 {
+    border: solid black 3px;
   }
 
 }

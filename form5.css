@@ -192,27 +192,53 @@ a {
   font-size: 0;
   width: 0px;
   height: 0px;
-  border-bottom: calc( 50px * 1.732 ) solid #666666;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+  border-bottom: calc( 20px * 1.732 ) solid #666666;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
   }
 
   h1 {
-    font-size: 40px;
-  }
-
-  h2 {
     font-size: 20px;
   }
 
+  h2 {
+    font-size: 15px;
+  }
+
   p {
-    font-size: 10px;
+    font-size: 7px;
+    margin: 3px;
+  }
+
+  .k1 {
+  background: gray;
+  width: 20px;
+  height: 20px;
   }
 
   .g1 {
-  background: gray;
-  width: 80px;
-  height: 80px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  .m1,
+  .m2,
+  .m3,
+  .m4,
+  .m5,
+  .f1,
+  .f2,
+  .f3,
+  .f4,
+  .f5,
+  .k6,
+  .k2,
+  .k5,
+  .k7,
+  .f7,
+  .f6 {
+    border: solid black 1px;
   }
 
 }

@@ -234,13 +234,68 @@ a {
 }
 
 @media screen and (max-width: 900px) {
+  h1 {
+    font-size: 20px;
+  }
+
   p {
     font-size: 10px;
+    margin: 3px;
   }
 
   .f4 {
     width: calc(100% / 5);
   }
+
+  .m1,
+  .m2,
+  .m3,
+  .m4,
+  .m5,
+  .n1,
+  .n2,
+  .f1,
+  .f2,
+  .f3,
+  .f4,
+  .f5,
+  .k6,
+  .k2,
+  .k5,
+  .k7,
+  .f7,
+  .f6,
+  .f8,
+  .f9 {
+    border: solid black 0.5px;
+  }
+
+  .triangle {
+  font-size: 0;
+  width: 0px;
+  height: 0px;
+  border-bottom: calc( 20px * 1.732 ) solid #666666;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  }
+
+  .k1 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .g1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  .g2 {
+    width: 10px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
 }
 
 

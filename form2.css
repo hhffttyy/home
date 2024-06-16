@@ -55,17 +55,17 @@ a {
   font-size: 0;
   width: 0px;
   height: 0px;
-  border-bottom: calc( 80px * 1.732 ) solid #666666;
-  border-left: 80px solid transparent;
-  border-right: 80px solid transparent;
+  border-bottom: calc( 50px * 1.732 ) solid #666666;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
