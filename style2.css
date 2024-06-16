@@ -222,37 +222,37 @@ article {
 		width: 40px;
 		height: 40px;
 		top: 450px;
-		left: 690px;
+		left: 20px;
 	}
 
 	.s3 {
 		position: absolute;
 		background-color: yellow;
-		font-size: 20px;
-		width: 60px;
-		height: 60px;
-		top: 900px;
-		left: 600px;
+		font-size: 15px;
+		width: 50px;
+		height: 50px;
+		top: 960px;
+		left: 320px;
 	}
 
 	.s4 {
 		position: absolute;
-		background-color: white;
-		font-size: 0px;
-		width: 10px;
-		height: 10px;
+		background-color: greenyellow;
+		font-size: 10px;
+		width: 40px;
+		height: 40px;
 		top: 1200px;
 		left: 30px;
 	}
 
 	.s5 {
 		position: absolute;
-		background-color: white;
+		background-color: lightblue;
 		font-size: 0px;
-		width: 10px;
-		height: 10px;
+		width: 40px;
+		height: 40px;
 		top: 170px;
-		left: 120px;
+		left: 30px;
 	}
 
 	.s6 {
@@ -272,7 +272,7 @@ article {
 		width: 20px;
 		height: 20px;
 		top: 650px;
-		left: 620px;
+		left: 410px;
 	}
 
 	.s8 {
@@ -281,8 +281,8 @@ article {
 		font-size: 0px;
 		width: 10px;
 		height: 10px;
-		top: 200px;
-		left: 620px;
+		top: 130px;
+		left: 420px;
 	}
 
 	.s9 {
@@ -291,7 +291,7 @@ article {
 		font-size: 0px;
 		width: 10px;
 		height: 10px;
-		top: 330px;
+		top: 350px;
 		left: 100px;
 	}
 
@@ -301,7 +301,7 @@ article {
 		font-size: 0px;
 		width: 10px;	
 		height: 10px;
-		top: 900px;
+		top: 950px;
 		left: 100px;
 	}
 

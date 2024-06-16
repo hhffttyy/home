@@ -54,3 +54,29 @@ p {
   width: 70%;
   line-height: 1.6;
 }
+
+@media screen and (max-width:900px) {
+  p {
+    font-size: 10px;
+  }
+
+  .a1 {
+  width: 60%;
+  height: 70%;
+  float: left;
+  margin-bottom: 50px;
+  }
+
+  .a2 {
+  width: 50%;
+  height: 70%;
+  float: left ; 
+  margin-bottom: 50px;
+  }
+
+  .a3 {
+  width: 50%;
+  height: 70%;
+  float: left;
+  }
+}

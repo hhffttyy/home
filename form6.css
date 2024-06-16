@@ -334,6 +334,15 @@ a {
     height: 30px;
     border-radius: 15px;
   }
+
+  .triangle {
+  font-size: 0;
+  width: 0px;
+  height: 0px;
+  border-bottom: calc( 20px * 1.732 ) solid #666666;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  }
 }
 
 
