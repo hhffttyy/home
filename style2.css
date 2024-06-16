@@ -5,6 +5,11 @@
 	background-color: rgb(0,1,51);
 }
 
+a {
+	color: red;
+	text-decoration: none;
+}
+
 article {
 	display: flex;
 	flex-direction: row;
@@ -110,30 +115,30 @@ article {
 
 .s3 {
 	position: absolute;
-	background-color: white;
-	font-size: 0px;
-	width: 20px;
-	height: 20px;
+	background-color: yellow;
+	font-size: 20px;
+	width: 60px;
+	height: 60px;
 	top: 100px;
 	left: 1500px;
 }
 
 .s4 {
 	position: absolute;
-	background-color: white;
+	background-color: yellowgreen;
 	font-size: 0px;
-	width: 10px;
-	height: 10px;
+	width: 50px;
+	height: 50px;
 	top: 900px;
 	left: 1500px;
 }
 
 .s5 {
 	position: absolute;
-	background-color: white;
+	background-color: lightblue;
 	font-size: 0px;
-	width: 10px;
-	height: 10px;
+	width: 70px;
+	height: 70px;
 	top: 70px;
 	left: 420px;
 }
@@ -222,10 +227,10 @@ article {
 
 	.s3 {
 		position: absolute;
-		background-color: white;
-		font-size: 0px;
-		width: 20px;
-		height: 20px;
+		background-color: yellow;
+		font-size: 20px;
+		width: 60px;
+		height: 60px;
 		top: 900px;
 		left: 600px;
 	}
